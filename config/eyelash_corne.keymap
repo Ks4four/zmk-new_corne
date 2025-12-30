@@ -245,6 +245,11 @@
             bindings = <&kp ASTERISK>;
             key-positions = <10 11>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <17 16 15>;
+        };
     };
 
     macros {
