@@ -3,15 +3,15 @@ layers:
   home:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
-  - W
-  - E
-  - R
+  - {t: W, h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: 'Alt+$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
   - T
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - Y
-  - U
-  - I
-  - O
+  - {t: U, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: 'Alt+$$mdi:apple-keyboard-control$$'}
+  - {t: O, h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:apple-keyboard-shift$$
   - Alt+$$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -109,7 +109,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:apple-keyboard-shift$$
   - Alt+$$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -150,7 +150,7 @@ layers:
   sym:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
   - Alt+$$mdi:apple-keyboard-control$$
   - Alt+$$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -207,7 +207,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:apple-keyboard-shift$$
   - Alt+$$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
