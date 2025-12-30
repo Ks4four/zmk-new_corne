@@ -33,12 +33,12 @@ layers:
   - {t: Z, h: num}
   - {t: X, h: roll}
   - {t: C, h: LWIN}
-  - V
+  - {t: V, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: B, h: sys}
   - {t: home, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - N
-  - M
+  - {t: M, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: ',', h: LWIN, s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
