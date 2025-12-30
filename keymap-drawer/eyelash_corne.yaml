@@ -363,3 +363,5 @@ combos:
   k: '&'
 - p: [10, 11]
   k: '*'
+- p: [17, 16, 15]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
