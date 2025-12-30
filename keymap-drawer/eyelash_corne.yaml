@@ -24,7 +24,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - H
-  - {t: '$$mdi:apple-keyboard-shift$$', h: J}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '''', s: '"'}
