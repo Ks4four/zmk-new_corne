@@ -34,7 +34,7 @@ layers:
   - {t: X, h: roll}
   - {t: C, h: LWIN}
   - V
-  - B
+  - {t: B, h: sys}
   - {t: home, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - N
@@ -279,7 +279,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
