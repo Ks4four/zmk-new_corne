@@ -272,10 +272,10 @@
 
         num {
             bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                    &trans          &trans  &kp LA(LSHFT)  &kp LA(LCTRL)  &trans    &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans            &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT  &trans  &trans
-&trans  &none   &kp N1  &kp N2  &kp N3  &kp N0  &trans            &trans          &trans  &kp LC(LSHFT)  &kp LEFT_WIN   &trans    &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans         &trans
+&trans  &trans  &kp N7      &kp N8  &kp N9  &trans                    &trans          &trans  &kp LA(LSHFT)  &kp LA(LCTRL)  &trans    &trans  &trans
+&trans  &trans  &kp N4      &kp N5  &kp N6  &trans            &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT  &trans  &trans
+&trans  &none   &hml F1 N1  &kp N2  &kp N3  &kp N0  &trans            &trans          &trans  &kp LC(LSHFT)  &kp LEFT_WIN   &trans    &trans  &trans
+                            &trans  &trans  &trans                                    &trans  &trans         &trans
             >;
         };
 
