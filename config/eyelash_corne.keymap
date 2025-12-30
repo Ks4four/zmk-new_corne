@@ -272,10 +272,10 @@
         home {
             display-name = "home";
             bindings = <
-&none  &kp Q    &kp W            &kp E         &kp R              &kp T                         &bt BT_SEL 0                &kp Y  &kp U          &kp I            &kp O            &kp P     &none
-&none  &lt 1 A  &hml LEFT_ALT S  &hml LCTRL D  &hml F LEFT_SHIFT  &kp G           &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H  &hmr J LSHIFT  &hmr LCTRL K     &hmr LEFT_ALT L  &kp SQT   &none
-&none  &lt 2 Z  &lt 4 X          &hml LWIN C   &kp V              &kp B  &to 0                  &bt BT_SEL 2                &kp N  &kp M          &hmr LWIN COMMA  &kp DOT          &kp FSLH  &none
-                                 &none         &none              &none                                                     &none  &none          &none
+&none  &kp Q    &hml LA(LC(LSHFT)) W  &hml LA(LCTRL) E  &hml LA(LSHFT) R   &kp T                         &bt BT_SEL 0                &kp Y  &hmr LA(LSHFT) U  &hmr LA(LCTRL) I  &hmr LA(LC(LSHFT)) O  &kp P     &none
+&none  &lt 1 A  &hml LEFT_ALT S       &hml LCTRL D      &hml F LEFT_SHIFT  &kp G           &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H  &hmr J LSHIFT     &hmr LCTRL K      &hmr LEFT_ALT L       &kp SQT   &none
+&none  &lt 2 Z  &lt 4 X               &hml LWIN C       &kp V              &kp B  &to 0                  &bt BT_SEL 2                &kp N  &kp M             &hmr LWIN COMMA   &kp DOT               &kp FSLH  &none
+                                      &none             &none              &none                                                     &none  &none             &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -283,36 +283,36 @@
 
         nav {
             bindings = <
-&trans  &trans  &kp HOME      &kp UP         &kp END        &kp PG_UP                    &trans          &trans  &kp LA(LSHFT)  &kp LA(LCTRL)  &trans    &trans  &trans
-&trans  &none   &kp LEFT      &kp DOWN       &kp RIGHT      &kp PG_DN            &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT  &trans  &trans
-&trans  &trans  &kp LC(LEFT)  &kp LG(SPACE)  &kp LC(RIGHT)  &trans     &trans            &trans          &trans  &kp LC(LSHFT)  &kp LEFT_WIN   &trans    &trans  &trans
+&trans  &trans  &kp HOME      &kp UP         &kp END        &kp PG_UP                    &trans          &trans  &kp LA(LSHFT)  &kp LA(LCTRL)  &kp LA(LC(LSHFT))  &trans  &trans
+&trans  &none   &kp LEFT      &kp DOWN       &kp RIGHT      &kp PG_DN            &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT           &trans  &trans
+&trans  &trans  &kp LC(LEFT)  &kp LG(SPACE)  &kp LC(RIGHT)  &trans     &trans            &trans          &trans  &kp LC(LSHFT)  &kp LEFT_WIN   &trans             &trans  &trans
                               &trans         &trans         &trans                                       &trans  &trans         &trans
             >;
         };
 
         num {
             bindings = <
-&trans  &trans  &hml F7 N7  &hml F8 N8  &hml F9 N9  &trans                         &trans          &trans  &kp LA(LSHFT)  &kp LA(LCTRL)  &trans    &trans  &trans
-&trans  &trans  &hml F4 N4  &hml F5 N5  &hml F6 N6  &trans                 &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT  &trans  &trans
-&trans  &none   &hml F1 N1  &hml F2 N2  &hml F3 N3  &hml F10 N0  &trans            &trans          &trans  &kp LC(LSHFT)  &kp LEFT_WIN   &trans    &trans  &trans
+&trans  &trans  &hml F7 N7  &hml F8 N8  &hml F9 N9  &trans                         &trans          &trans  &kp LA(LSHFT)  &kp LA(LCTRL)  &kp LA(LC(LSHFT))  &trans  &trans
+&trans  &trans  &hml F4 N4  &hml F5 N5  &hml F6 N6  &trans                 &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT           &trans  &trans
+&trans  &none   &hml F1 N1  &hml F2 N2  &hml F3 N3  &hml F10 N0  &trans            &trans          &trans  &kp LC(LSHFT)  &kp LEFT_WIN   &trans             &trans  &trans
                             &trans      &trans      &trans                                         &trans  &trans         &trans
             >;
         };
 
         sym {
             bindings = <
-&trans  &trans  &trans    &kp LA(LCTRL)  &kp LA(LSHIFT)  &trans                    &trans          &trans    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans  &trans
-&trans  &trans  &kp LALT  &kp LCTRL      &kp LSHIFT      &trans            &trans  &trans  &trans  &trans    &kp DOLLAR     &kp PERCENT   &kp CARET             &trans  &trans
-&trans  &trans  &trans    &kp LEFT_WIN   &kp LC(LSHIFT)  &trans  &trans            &trans          &kp RPAR  &kp EXCL       &kp AT        &kp HASH              &none   &trans
-                          &trans         &trans          &trans                                    &trans    &trans         &trans
+&trans  &trans  &kp LA(LC(LSHFT))  &kp LA(LCTRL)  &kp LA(LSHIFT)  &trans                    &trans          &trans    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans  &trans
+&trans  &trans  &kp LALT           &kp LCTRL      &kp LSHIFT      &trans            &trans  &trans  &trans  &trans    &kp DOLLAR     &kp PERCENT   &kp CARET             &trans  &trans
+&trans  &trans  &trans             &kp LEFT_WIN   &kp LC(LSHIFT)  &trans  &trans            &trans          &kp RPAR  &kp EXCL       &kp AT        &kp HASH              &none   &trans
+                                   &trans         &trans          &trans                                    &trans    &trans         &trans
             >;
         };
 
         roll {
             bindings = <
-&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                    &trans          &trans  &kp LA(LSHIFT)  &kp LA(LCTRL)  &trans        &trans  &trans
-&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans  &trans  &trans  &trans  &kp LSHIFT      &kp LCTRL      &kp LEFT_ALT  &trans  &trans
-&trans  &trans  &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans            &trans          &trans  &kp LC(LSHIFT)  &kp LWIN       &trans        &trans  &trans
+&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                    &trans          &trans  &kp LA(LSHIFT)  &kp LA(LCTRL)  &kp LA(LC(LSHFT))  &trans  &trans
+&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans  &trans  &trans  &trans  &kp LSHIFT      &kp LCTRL      &kp LEFT_ALT       &trans  &trans
+&trans  &trans  &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans            &trans          &trans  &kp LC(LSHIFT)  &kp LWIN       &trans             &trans  &trans
                         &trans                &trans                 &trans                                    &trans  &trans          &trans
             >;
         };
