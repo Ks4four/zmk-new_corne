@@ -365,3 +365,5 @@ combos:
   k: '*'
 - p: [17, 16, 15]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [1, 29]
+  k: $$mdi:progress-download$$
