@@ -250,6 +250,11 @@
             bindings = <&kp ENTER>;
             key-positions = <17 16 15>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <1 29>;
+        };
     };
 
     macros {
