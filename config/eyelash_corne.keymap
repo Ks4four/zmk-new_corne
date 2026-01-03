@@ -73,187 +73,223 @@
         hold-trigger-key-positions = <1 2 3 4 5 14 15 16 17 18 29 30 31 32 33>;
     };
 
-    combos {
+combos {
         compatible = "zmk,combos";
 
         bksp {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 32>;
+            timeout-ms = <15>;
         };
 
         del {
             bindings = <&kp DEL>;
             key-positions = <16 30>;
+            timeout-ms = <15>;
         };
 
         space {
             bindings = <&kp SPACE>;
             key-positions = <17 16>;
+            timeout-ms = <15>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <16 15>;
+            timeout-ms = <15>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <15 14>;
+            timeout-ms = <15>;
         };
 
         colon {
             bindings = <&kp COLON>;
             key-positions = <23 24>;
+            timeout-ms = <15>;
         };
 
         semi {
             bindings = <&kp SEMI>;
             key-positions = <25 24>;
+            timeout-ms = <15>;
         };
 
         dbquotes {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <25 26>;
+            timeout-ms = <15>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <37 24>;
+            timeout-ms = <15>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <24 39>;
+            timeout-ms = <15>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <9 25>;
+            timeout-ms = <15>;
         };
 
         under {
             bindings = <&kp UNDER>;
             key-positions = <9 23>;
+            timeout-ms = <15>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <17 15>;
+            timeout-ms = <15>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <14 16>;
+            timeout-ms = <15>;
         };
 
         bslh {
             bindings = <&kp BSLH>;
             key-positions = <23 25>;
+            timeout-ms = <15>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <24 26>;
+            timeout-ms = <15>;
         };
 
         one {
             bindings = <&hml F1 NUMBER_1>;
             key-positions = <32 31>;
+            timeout-ms = <15>;
         };
 
         two {
             bindings = <&hml F2 NUMBER_2>;
             key-positions = <30 31>;
+            timeout-ms = <15>;
         };
 
         three {
             bindings = <&hml F3 NUMBER_3>;
             key-positions = <30 29>;
+            timeout-ms = <15>;
         };
 
         four {
             bindings = <&hml F4 N4>;
             key-positions = <29 15>;
+            timeout-ms = <15>;
         };
 
         five {
             bindings = <&hml F5 N5>;
             key-positions = <14 30>;
+            timeout-ms = <15>;
         };
 
         six {
             bindings = <&hml F6 NUMBER_6>;
             key-positions = <4 3>;
+            timeout-ms = <15>;
         };
 
         seven {
             bindings = <&hml F7 N7>;
             key-positions = <3 2>;
+            timeout-ms = <15>;
         };
 
         eight {
             bindings = <&hml F8 N8>;
             key-positions = <2 1>;
+            timeout-ms = <15>;
         };
 
         nine {
             bindings = <&hml F9 N9>;
             key-positions = <1 15>;
+            timeout-ms = <15>;
         };
 
         zero {
             bindings = <&hml F10 N0>;
             key-positions = <14 2>;
+            timeout-ms = <15>;
         };
 
         shift1 {
             bindings = <&kp EXCLAMATION>;
             key-positions = <37 38>;
+            timeout-ms = <15>;
         };
 
         shift2 {
             bindings = <&kp AT_SIGN>;
             key-positions = <38 39>;
+            timeout-ms = <15>;
         };
 
         shift3 {
             bindings = <&kp HASH>;
             key-positions = <40 39>;
+            timeout-ms = <15>;
         };
 
         shift4 {
             bindings = <&kp DOLLAR>;
             key-positions = <40 25>;
+            timeout-ms = <15>;
         };
 
         shift5 {
             bindings = <&kp PERCENT>;
             key-positions = <39 26>;
+            timeout-ms = <15>;
         };
 
         shift6 {
             bindings = <&kp CARET>;
             key-positions = <8 9>;
+            timeout-ms = <15>;
         };
 
         shift7 {
             bindings = <&kp AMPERSAND>;
             key-positions = <9 10>;
+            timeout-ms = <15>;
         };
 
         shift8 {
             bindings = <&kp ASTERISK>;
             key-positions = <10 11>;
+            timeout-ms = <15>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <17 16 15>;
+            timeout-ms = <15>;
         };
 
         bootloader {
             bindings = <&bootloader>;
             key-positions = <1 29>;
+            timeout-ms = <15>;
         };
     };
 
