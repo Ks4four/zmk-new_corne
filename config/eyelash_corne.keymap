@@ -350,7 +350,7 @@
 &trans  &trans  &hml F7 N7  &hml F8 N8  &hml F9 N9  &kp F12                        &trans          &trans  &kp LA(LSHFT)  &kp LA(LCTRL)  &kp LA(LC(LSHFT))  &trans  &trans
 &none   &trans  &hml F4 N4  &hml F5 N5  &hml F6 N6  &kp F11                &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT           &trans  &trans
 &trans  &none   &hml F1 N1  &hml F2 N2  &hml F3 N3  &hml F10 N0  &trans            &trans          &trans  &kp LC(LSHFT)  &kp LEFT_WIN   &trans             &trans  &trans
-                            &trans      &trans      &trans                                         &trans  &trans         &trans
+                            &trans      &to 0       &trans                                         &trans  &trans         &trans
             >;
         };
 
