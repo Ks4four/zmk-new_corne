@@ -321,7 +321,7 @@
 &none     &kp Q    &hml LA(LC(LSHFT)) W  &hml LA(LCTRL) E  &hml LA(LSHFT) R  &kp T                           &bt BT_SEL 0                &kp Y  &hmr LA(LSHFT) U       &hmr LA(LCTRL) I  &hmr LA(LC(LSHFT)) O  &kp P     &none
 &kp CAPS  &lt 1 A  &hml LEFT_ALT S       &hml LCTRL D      &hml LSHFT F      &kp G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H  &hmr LSHFT J           &hmr LCTRL K      &hmr LEFT_ALT L       &kp SQT   &none
 &none     &lt 2 Z  &lt 4 X               &hml LWIN C       &hml LC(LSHFT) V  &lt 5 B  &to 0                  &bt BT_SEL 2                &kp N  &hmr LC(LSHFT) M       &hmr LWIN COMMA   &kp DOT               &kp FSLH  &none
-                                         &none             &kp LSHFT         &none                                                       &none  &kp LS(LA(LC(LG(X))))  &none
+                                         &sk LEFT_ALT      &kp LSHFT         &none                                                       &none  &kp LS(LA(LC(LG(X))))  &sk LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
