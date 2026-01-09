@@ -318,10 +318,10 @@
         home {
             display-name = "home";
             bindings = <
-&none  &kp Q    &hml LA(LC(LSHFT)) W  &hml LA(LCTRL) E  &hml LA(LSHFT) R  &kp T                           &bt BT_SEL 0                &kp Y  &hmr LA(LSHFT) U       &hmr LA(LCTRL) I  &hmr LA(LC(LSHFT)) O  &kp P     &none
-&to 2  &lt 1 A  &hml LEFT_ALT S       &hml LCTRL D      &hml LSHFT F      &kp G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H  &hmr LSHFT J           &hmr LCTRL K      &hmr LEFT_ALT L       &kp SQT   &none
-&none  &lt 2 Z  &lt 4 X               &hml LWIN C       &hml LC(LSHFT) V  &lt 5 B  &to 0                  &bt BT_SEL 2                &kp N  &hmr LC(LSHFT) M       &hmr LWIN COMMA   &kp DOT               &kp FSLH  &none
-                                      &none             &kp LSHFT         &none                                                       &none  &kp LS(LA(LC(LG(X))))  &none
+&none     &kp Q    &hml LA(LC(LSHFT)) W  &hml LA(LCTRL) E  &hml LA(LSHFT) R  &kp T                           &bt BT_SEL 0                &kp Y  &hmr LA(LSHFT) U       &hmr LA(LCTRL) I  &hmr LA(LC(LSHFT)) O  &kp P     &none
+&kp CAPS  &lt 1 A  &hml LEFT_ALT S       &hml LCTRL D      &hml LSHFT F      &kp G             &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H  &hmr LSHFT J           &hmr LCTRL K      &hmr LEFT_ALT L       &kp SQT   &none
+&none     &lt 2 Z  &lt 4 X               &hml LWIN C       &hml LC(LSHFT) V  &lt 5 B  &to 0                  &bt BT_SEL 2                &kp N  &hmr LC(LSHFT) M       &hmr LWIN COMMA   &kp DOT               &kp FSLH  &none
+                                         &none             &kp LSHFT         &none                                                       &none  &kp LS(LA(LC(LG(X))))  &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
@@ -339,7 +339,7 @@
         num {
             bindings = <
 &trans  &trans  &hml F7 N7  &hml F8 N8  &hml F9 N9  &kp F12                        &trans          &trans  &kp LA(LSHFT)  &kp LA(LCTRL)  &kp LA(LC(LSHFT))  &trans  &trans
-&to 0   &trans  &hml F4 N4  &hml F5 N5  &hml F6 N6  &kp F11                &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT           &trans  &trans
+&none   &trans  &hml F4 N4  &hml F5 N5  &hml F6 N6  &kp F11                &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT           &trans  &trans
 &trans  &none   &hml F1 N1  &hml F2 N2  &hml F3 N3  &hml F10 N0  &trans            &trans          &trans  &kp LC(LSHFT)  &kp LEFT_WIN   &trans             &trans  &trans
                             &trans      &trans      &trans                                         &trans  &trans         &trans
             >;
