@@ -341,7 +341,7 @@
 &trans  &trans  &kp HOME      &kp UP         &kp END        &kp PG_UP                    &trans          &trans  &kp LA(LSHFT)  &kp LA(LCTRL)  &kp LA(LC(LSHFT))  &trans  &trans
 &to 0   &none   &kp LEFT      &kp DOWN       &kp RIGHT      &kp PG_DN            &trans  &trans  &trans  &trans  &kp LSHFT      &kp LCTRL      &kp LALT           &trans  &trans
 &trans  &trans  &kp LC(LEFT)  &kp LG(SPACE)  &kp LC(RIGHT)  &trans     &trans            &trans          &trans  &kp LC(LSHFT)  &kp LEFT_WIN   &trans             &trans  &trans
-                              &trans         &trans         &trans                                       &trans  &trans         &trans
+                              &trans         &to 0          &trans                                       &trans  &trans         &trans
             >;
         };
 
