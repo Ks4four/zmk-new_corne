@@ -3,43 +3,43 @@ layers:
   home:
   - $$mdi:keyboard-esc$$
   - Q
-  - {t: W, h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
-  - {t: E, h: 'Alt+$$mdi:apple-keyboard-control$$'}
-  - {t: R, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
+  - W
+  - E
+  - R
   - T
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - Y
-  - {t: U, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
-  - {t: I, h: 'Alt+$$mdi:apple-keyboard-control$$'}
-  - {t: O, h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
+  - U
+  - I
+  - O
   - P
   - F12
   - {t: nav, h: toggle}
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - S
+  - D
+  - F
   - G
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - J
+  - K
+  - L
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-caps$$
   - {t: num, h: toggle}
   - Z
   - {t: X, h: roll}
-  - {t: C, h: LWIN}
-  - {t: V, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
+  - C
+  - V
   - {t: B, h: sys}
   - {t: home, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - N
-  - {t: M, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
-  - {t: ',', h: LWIN, s: <}
+  - M
+  - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: \, s: '|'}
@@ -294,6 +294,55 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  bak:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - {t: W, h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: 'Alt+$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
+  - T
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - Y
+  - {t: U, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: 'Alt+$$mdi:apple-keyboard-control$$'}
+  - {t: O, h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
+  - P
+  - F12
+  - {t: nav, h: toggle}
+  - A
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-caps$$
+  - {t: num, h: toggle}
+  - Z
+  - {t: X, h: roll}
+  - {t: C, h: LWIN}
+  - {t: V, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
+  - {t: B, h: sys}
+  - {t: home, h: toggle}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - N
+  - {t: M, h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
+  - {t: ',', h: LWIN, s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: \, s: '|'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: 'Ctl+$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - LEFT WIN
+  - $$mdi:apple-keyboard-shift$$
+  - Hyper+X
 combos:
 - p: [16, 32]
   k: {t: '$$mdi:backspace$$', type: backspace}
