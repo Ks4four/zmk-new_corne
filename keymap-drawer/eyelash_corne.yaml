@@ -14,7 +14,7 @@ layers:
   - {t: O, h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - P
   - F12
-  - {t: nav, h: toggle}
+  - $$mdi:apple-keyboard-shift$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
