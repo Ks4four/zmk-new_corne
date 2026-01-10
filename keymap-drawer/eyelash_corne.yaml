@@ -47,7 +47,7 @@ layers:
   - {t: num, h: nav}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Hyper+X
+  - Sft+AltGr+Ctl+Gui+X
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   nav:
   - {t: '$$mdi:transfer$$', type: trans}
