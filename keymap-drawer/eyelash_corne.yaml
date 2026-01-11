@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
   - LEFT WIN
   - Gui+$$mdi:keyboard-space$$
-  - Hyper+X
+  - Alt+Gui+X
   nav:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
