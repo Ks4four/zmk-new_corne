@@ -32,8 +32,8 @@ layers:
   - {t: num, h: toggle}
   - Z
   - {t: X, h: roll}
-  - C
-  - {t: V, h: LEFT WIN}
+  - {t: LWIN, h: C}
+  - V
   - {t: B, h: sys}
   - {t: home, h: toggle}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
