@@ -38,6 +38,12 @@
       continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
       ignore-modifiers;
     };
+    num_word: num_word {
+      compatible = "zmk,behavior-auto-layer";
+      #binding-cells = <1>;
+      continue-list = <BSPC DEL DOT COMMA>;
+      ignore-modifiers;
+    };
     };
 
     rgb_encoder: rgb_encoder {
