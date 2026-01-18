@@ -32,7 +32,7 @@ layers:
   - '&num_word 2'
   - Z
   - {t: X, h: roll}
-  - {t: LWIN, h: C}
+  - C
   - V
   - {t: B, h: sys}
   - {t: home, h: toggle}
