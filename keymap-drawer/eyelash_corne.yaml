@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - F12
-  - {t: nav, h: toggle}
+  - '&nav_word 1'
   - A
   - S
   - D
@@ -29,7 +29,7 @@ layers:
   - L
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-caps$$
-  - {t: num, h: toggle}
+  - '&num_word 2'
   - Z
   - {t: X, h: roll}
   - {t: LWIN, h: C}
