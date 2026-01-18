@@ -32,6 +32,8 @@
 
 / {
     behaviors {
+    };
+
     nav_word: nav_word {
       compatible = "zmk,behavior-auto-layer";
       #binding-cells = <1>;
@@ -44,7 +46,7 @@
       continue-list = <BSPC DEL DOT COMMA>;
       ignore-modifiers;
     };
-    };
+
 
     rgb_encoder: rgb_encoder {
         compatible = "zmk,behavior-sensor-rotate";
