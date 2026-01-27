@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - F12
-  - '&nav_word 1'
+  - $$mdi:apple-keyboard-caps$$
   - A
   - {t: S, h: roll}
   - D
