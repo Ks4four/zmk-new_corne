@@ -342,7 +342,7 @@
             display-name = "home";
             bindings = <
 &kp LWIN     &kp Q  &kp W    &kp E                              &kp R                        &kp T                                               &bt BT_SEL 0                &kp Y         &kp U          &kp I          &kp O    &kp P     &kp F12
-&kp CAPS     &kp A  &lt 4 S  &kp D                              &lt 1 F                      &kp G                                 &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H         &kp J          &kp K          &kp L    &kp SQT   &kp CAPSLOCK
+&kp CAPS     &kp A  &lt 4 S  &kp D                              &lt 1 F                      &kp G                                 &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H         &kp J          &kp K          &kp L    &kp SQT   &kp LC(LS(LA(CAPSLOCK)))
 &num_word 2  &kp Z  &kp X    &kp C                              &lt 2 V                      &lt 5 B                      &to 0                  &bt BT_SEL 2                &kp N         &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp BACKSLASH
                              &hold_mo_tap_sk LEFT_ALT LEFT_ALT  &hold_mo_tap_sk LCTRL LCTRL  &hold_mo_tap_sk LSHFT LSHFT                                                     &kp LEFT_WIN  &kp LG(SPACE)  &kp LA(LG(X))
             >;
