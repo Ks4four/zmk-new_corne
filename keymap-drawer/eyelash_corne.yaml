@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-caps$$
+  - Sft+$$mdi:apple-keyboard-caps$$
   - '&num_word 2'
   - Z
   - X
