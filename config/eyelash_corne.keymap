@@ -225,36 +225,6 @@
             timeout-ms = <20>;
         };
 
-        six {
-            bindings = <&hml F6 NUMBER_6>;
-            key-positions = <>;
-            timeout-ms = <20>;
-        };
-
-        seven {
-            bindings = <&hml F7 N7>;
-            key-positions = <>;
-            timeout-ms = <20>;
-        };
-
-        eight {
-            bindings = <&hml F8 N8>;
-            key-positions = <>;
-            timeout-ms = <20>;
-        };
-
-        nine {
-            bindings = <&hml F9 N9>;
-            key-positions = <>;
-            timeout-ms = <20>;
-        };
-
-        zero {
-            bindings = <&hml F10 N0>;
-            key-positions = <>;
-            timeout-ms = <20>;
-        };
-
         shift1 {
             bindings = <&kp EXCLAMATION>;
             key-positions = <37 38>;
