@@ -225,54 +225,6 @@
             timeout-ms = <20>;
         };
 
-        shift1 {
-            bindings = <&kp EXCLAMATION>;
-            key-positions = <37 38>;
-            timeout-ms = <20>;
-        };
-
-        shift2 {
-            bindings = <&kp AT_SIGN>;
-            key-positions = <38 39>;
-            timeout-ms = <20>;
-        };
-
-        shift3 {
-            bindings = <&kp HASH>;
-            key-positions = <40 39>;
-            timeout-ms = <20>;
-        };
-
-        shift4 {
-            bindings = <&kp DOLLAR>;
-            key-positions = <40 25>;
-            timeout-ms = <20>;
-        };
-
-        shift5 {
-            bindings = <&kp PERCENT>;
-            key-positions = <39 26>;
-            timeout-ms = <20>;
-        };
-
-        shift6 {
-            bindings = <&kp CARET>;
-            key-positions = <8 9>;
-            timeout-ms = <20>;
-        };
-
-        shift7 {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <9 10>;
-            timeout-ms = <20>;
-        };
-
-        shift8 {
-            bindings = <&kp ASTERISK>;
-            key-positions = <10 11>;
-            timeout-ms = <20>;
-        };
-
         enter {
             bindings = <&kp ENTER>;
             key-positions = <17 16 15>;
