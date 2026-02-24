@@ -264,7 +264,7 @@
             display-name = "home";
             bindings = <
 &kp ESCAPE   &kp Q  &kp W    &kp E                              &kp R                        &kp T                                               &bt BT_SEL 0                &kp Y         &kp U          &kp I          &kp O    &kp P     &kp F12
-&kp CAPS     &kp A  &lt 4 S  &kp D                              &lt 1 F                      &kp G                                 &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H         &kp J          &kp K          &kp L    &kp SQT   &kp LS(CAPSLOCK)
+&kp CAPS     &kp A  &lt 4 S  &lt 6 D                            &lt 1 F                      &kp G                                 &bt BT_SEL 1  &bt BT_CLR    &bt BT_SEL 3  &kp H         &kp J          &kp K          &kp L    &kp SQT   &kp LS(CAPSLOCK)
 &num_word 2  &kp Z  &kp X    &kp C                              &lt 2 V                      &lt 5 B                      &to 0                  &bt BT_SEL 2                &kp N         &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp BACKSLASH
                              &hold_mo_tap_sk LEFT_ALT LEFT_ALT  &hold_mo_tap_sk LCTRL LCTRL  &hold_mo_tap_sk LSHFT LSHFT                                                     &kp LEFT_WIN  &kp LG(SPACE)  &kp LA(LG(X))
             >;
@@ -317,7 +317,16 @@
             >;
         };
 
-        layer_6 {
+        db {
+            bindings = <
+&trans  &trans  &trans          &trans  &trans             &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp DELETE      &none   &kp BACKSPACE      &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LC(DELETE)  &trans  &kp LC(BACKSPACE)  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans             &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        bak {
             display-name = "bak";
             bindings = <
 &kp ESCAPE  &kp Q  &hml LA(LC(LSHFT)) W  &hml LA(LCTRL) E  &hml LA(LSHFT) R  &kp T                                 &bt BT_SEL 0                &kp Y         &hmr LA(LSHFT) U  &hmr LA(LCTRL) I       &hmr LA(LC(LSHFT)) O  &kp P     &kp F12
