@@ -178,7 +178,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <32 31>;
+            key-positions = <17 15>;
             timeout-ms = <20>;
         };
 
