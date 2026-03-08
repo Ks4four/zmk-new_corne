@@ -130,13 +130,13 @@
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <25 24>;
+            key-positions = <>;
             timeout-ms = <20>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <15 17>;
+            key-positions = <>;
             timeout-ms = <20>;
         };
 
@@ -261,10 +261,10 @@
 
         line {
             bindings = <
-&trans  &trans  &trans  &kp BACKSLASH  &kp PIPE   &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &none   &kp MINUS      &kp EQUAL  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp UNDER      &kp PLUS   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans         &trans     &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &kp TILDE  &kp PIPE   &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &none   &kp MINUS  &kp EQUAL  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp UNDER  &kp PLUS   &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans     &trans     &trans                                    &trans  &trans  &trans
             >;
         };
     };
